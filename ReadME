@@ -1,0 +1,33 @@
+a sample Http local proxy  with some features such as cache policy , ....
+
+
+
+
+
+
+
+
+sudo docker build ./  -t os_prj
+
+
+sudo docker run -p 6666:5555 os_prj
+
+
+
+
+
+
+
+
+stuf:
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
+docker push ehtorkaman/t0:tagname
+
+sudo systemctl start docker
+
+sudo systemctl enable docker
+docker --version
+sudo docker rm $(sudo docker ps -a -q -f status=exited)
+sudo docker container prune
+sudo docker ps -a

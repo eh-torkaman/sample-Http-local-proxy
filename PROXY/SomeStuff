@@ -1,0 +1,24 @@
+test sites:
+	http://www.columbia.edu/~fdc/sample.html
+	http://rebeca-lang.org/
+	http://www.reelreality.com/files/Understanding_Binary-Hexadecimal.pdf
+
+
+
+
+
+export http_proxy=http://127.0.0.1:1113
+
+
+GET http://www.columbia.edu/~fdc/sample.html\r\n\r\n
+HOST:http://www.columbia.edu/~fdc/sample.html
+
+
+
+GET http://www.columbia.edu/~fdc/sample.html/ HTTP/1.0\r\nContent-Length: 80\r\nIf-Modified-Since: Sat, 29 Oct 1994 19:43:31 GMT\r\n\r\n
+
+
+http://dummy.restapiexample.com/api/v1/employees
+
+
+http://ergast.com/api/f1/2004/1/results.json
